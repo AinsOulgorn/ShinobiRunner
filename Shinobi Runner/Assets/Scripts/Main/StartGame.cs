@@ -21,7 +21,7 @@ public class StartGame : MonoBehaviour
     {
         _startScreen.SetActive(false);
         Time.timeScale= 1;
-        _player._stepSize=3.5f;
+        _player._stepSize=3f;
         _obstacleSpawn.SetActive(true);
 
 
